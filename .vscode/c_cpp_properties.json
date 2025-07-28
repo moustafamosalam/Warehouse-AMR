@@ -1,0 +1,47 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/mosalam/real_robot/robot_ws/install/vizanti_msgs/include/**",
+        "/home/mosalam/real_robot/robot_ws/install/serial_motor_demo_msgs/include/**",
+        "/home/mosalam/real_robot/robot_ws/install/serial/include/**",
+        "/home/mosalam/real_robot/robot_ws/install/rplidar_ros/include/**",
+        "/home/mosalam/real_robot/robot_ws/install/multirobot_map_merge/include/**",
+        "/home/mosalam/real_robot/robot_ws/install/explore_lite/include/**",
+        "/home/mosalam/real_robot/robot_ws/install/diffdrive_arduino/include/**",
+        "/home/mosalam/prototype_robot_ws/install/serial_motor_demo_msgs/include/**",
+        "/home/mosalam/prototype_robot_ws/install/diffdrive_arduino/include/**",
+        "/home/mosalam/robot_ws/install/vizanti_msgs/include/**",
+        "/home/mosalam/robot_ws/install/serial_motor_demo_msgs/include/**",
+        "/home/mosalam/humanoid_robot_ws/install/ros2_control_demo_example_9/include/**",
+        "/home/mosalam/humanoid_robot_ws/install/ros2_control_demo_example_8/include/**",
+        "/home/mosalam/humanoid_robot_ws/install/ros2_control_demo_example_7/include/**",
+        "/home/mosalam/humanoid_robot_ws/install/ros2_control_demo_example_6/include/**",
+        "/home/mosalam/humanoid_robot_ws/install/ros2_control_demo_example_5/include/**",
+        "/home/mosalam/humanoid_robot_ws/install/ros2_control_demo_example_4/include/**",
+        "/home/mosalam/humanoid_robot_ws/install/ros2_control_demo_example_3/include/**",
+        "/home/mosalam/humanoid_robot_ws/install/ros2_control_demo_example_2/include/**",
+        "/home/mosalam/humanoid_robot_ws/install/ros2_control_demo_example_14/include/**",
+        "/home/mosalam/humanoid_robot_ws/install/ros2_control_demo_example_12/include/**",
+        "/home/mosalam/humanoid_robot_ws/install/ros2_control_demo_example_11/include/**",
+        "/home/mosalam/humanoid_robot_ws/install/ros2_control_demo_example_10/include/**",
+        "/home/mosalam/humanoid_robot_ws/install/ros2_control_demo_example_1/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/mosalam/real_robot/robot_ws/src/robot/include/**",
+        "/home/mosalam/real_robot/robot_ws/src/rplidar_ros2/include/**",
+        "/home/mosalam/real_robot/robot_ws/src/serial/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

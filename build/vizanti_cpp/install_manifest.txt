@@ -1,0 +1,16 @@
+/home/mosalam/robot_ws/install/vizanti_cpp/lib/vizanti_cpp/tf_consolidator
+/home/mosalam/robot_ws/install/vizanti_cpp/share/ament_index/resource_index/package_run_dependencies/vizanti_cpp
+/home/mosalam/robot_ws/install/vizanti_cpp/share/ament_index/resource_index/parent_prefix_path/vizanti_cpp
+/home/mosalam/robot_ws/install/vizanti_cpp/share/vizanti_cpp/environment/ament_prefix_path.sh
+/home/mosalam/robot_ws/install/vizanti_cpp/share/vizanti_cpp/environment/ament_prefix_path.dsv
+/home/mosalam/robot_ws/install/vizanti_cpp/share/vizanti_cpp/environment/path.sh
+/home/mosalam/robot_ws/install/vizanti_cpp/share/vizanti_cpp/environment/path.dsv
+/home/mosalam/robot_ws/install/vizanti_cpp/share/vizanti_cpp/local_setup.bash
+/home/mosalam/robot_ws/install/vizanti_cpp/share/vizanti_cpp/local_setup.sh
+/home/mosalam/robot_ws/install/vizanti_cpp/share/vizanti_cpp/local_setup.zsh
+/home/mosalam/robot_ws/install/vizanti_cpp/share/vizanti_cpp/local_setup.dsv
+/home/mosalam/robot_ws/install/vizanti_cpp/share/vizanti_cpp/package.dsv
+/home/mosalam/robot_ws/install/vizanti_cpp/share/ament_index/resource_index/packages/vizanti_cpp
+/home/mosalam/robot_ws/install/vizanti_cpp/share/vizanti_cpp/cmake/vizanti_cppConfig.cmake
+/home/mosalam/robot_ws/install/vizanti_cpp/share/vizanti_cpp/cmake/vizanti_cppConfig-version.cmake
+/home/mosalam/robot_ws/install/vizanti_cpp/share/vizanti_cpp/package.xml

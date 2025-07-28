@@ -1,0 +1,341 @@
+[0.017s] Invoking command in '/home/mosalam/robot_ws/build/vizanti_server': AMENT_PREFIX_PATH=/home/mosalam/robot_ws/install/vizanti_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mosalam/robot_ws/install/vizanti_msgs:/home/mosalam/robot_ws/install/robot:/home/mosalam/robot_ws/install/urdf_tutorial:/home/mosalam/robot_ws/install/serial_motor_demo_msgs:/home/mosalam/robot_ws/install/serial:/home/mosalam/robot_ws/install/rplidar_ros:/home/mosalam/robot_ws/install/multirobot_map_merge:/home/mosalam/robot_ws/install/explore_lite:/home/mosalam/robot_ws/install/diffdrive_arduino:/home/mosalam/robot_ws/install/serial_motor_demo:/home/mosalam/robot_ws/install/custom_explorer:/home/mosalam/robot_ws/install/autonomous_exploration:/opt/ros/humble LD_LIBRARY_PATH=/home/mosalam/robot_ws/install/vizanti_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mosalam/robot_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/mosalam/robot_ws/src/vizanti/vizanti_server -DCMAKE_INSTALL_PREFIX=/home/mosalam/robot_ws/install/vizanti_server
+[0.091s] -- The C compiler identification is GNU 11.4.0
+[0.168s] -- The CXX compiler identification is GNU 11.4.0
+[0.175s] -- Detecting C compiler ABI info
+[0.269s] -- Detecting C compiler ABI info - done
+[0.278s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.279s] -- Detecting C compile features
+[0.279s] -- Detecting C compile features - done
+[0.283s] -- Detecting CXX compiler ABI info
+[0.407s] -- Detecting CXX compiler ABI info - done
+[0.416s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.417s] -- Detecting CXX compile features
+[0.418s] -- Detecting CXX compile features - done
+[0.425s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.654s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.790s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.847s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.860s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.876s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.901s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.933s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.022s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.029s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.169s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.210s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.272s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.290s] -- Looking for pthread.h
+[1.388s] -- Looking for pthread.h - found
+[1.388s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.475s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.477s] -- Found Threads: TRUE  
+[1.541s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[1.544s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[1.561s] -- Found tf2_msgs: 0.25.12 (/opt/ros/humble/share/tf2_msgs/cmake)
+[1.627s] -- Found vizanti_msgs: 0.1.0 (/home/mosalam/robot_ws/install/vizanti_msgs/share/vizanti_msgs/cmake)
+[1.673s] -- Found rosbridge_suite: 2.0.1 (/opt/ros/humble/share/rosbridge_suite/cmake)
+[1.769s] -- Configuring done
+[1.775s] -- Generating done
+[1.779s] -- Build files have been written to: /home/mosalam/robot_ws/build/vizanti_server
+[1.791s] Invoked command in '/home/mosalam/robot_ws/build/vizanti_server' returned '0': AMENT_PREFIX_PATH=/home/mosalam/robot_ws/install/vizanti_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mosalam/robot_ws/install/vizanti_msgs:/home/mosalam/robot_ws/install/robot:/home/mosalam/robot_ws/install/urdf_tutorial:/home/mosalam/robot_ws/install/serial_motor_demo_msgs:/home/mosalam/robot_ws/install/serial:/home/mosalam/robot_ws/install/rplidar_ros:/home/mosalam/robot_ws/install/multirobot_map_merge:/home/mosalam/robot_ws/install/explore_lite:/home/mosalam/robot_ws/install/diffdrive_arduino:/home/mosalam/robot_ws/install/serial_motor_demo:/home/mosalam/robot_ws/install/custom_explorer:/home/mosalam/robot_ws/install/autonomous_exploration:/opt/ros/humble LD_LIBRARY_PATH=/home/mosalam/robot_ws/install/vizanti_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mosalam/robot_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/mosalam/robot_ws/src/vizanti/vizanti_server -DCMAKE_INSTALL_PREFIX=/home/mosalam/robot_ws/install/vizanti_server
+[1.793s] Invoking command in '/home/mosalam/robot_ws/build/vizanti_server': AMENT_PREFIX_PATH=/home/mosalam/robot_ws/install/vizanti_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mosalam/robot_ws/install/vizanti_msgs:/home/mosalam/robot_ws/install/robot:/home/mosalam/robot_ws/install/urdf_tutorial:/home/mosalam/robot_ws/install/serial_motor_demo_msgs:/home/mosalam/robot_ws/install/serial:/home/mosalam/robot_ws/install/rplidar_ros:/home/mosalam/robot_ws/install/multirobot_map_merge:/home/mosalam/robot_ws/install/explore_lite:/home/mosalam/robot_ws/install/diffdrive_arduino:/home/mosalam/robot_ws/install/serial_motor_demo:/home/mosalam/robot_ws/install/custom_explorer:/home/mosalam/robot_ws/install/autonomous_exploration:/opt/ros/humble LD_LIBRARY_PATH=/home/mosalam/robot_ws/install/vizanti_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mosalam/robot_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mosalam/robot_ws/build/vizanti_server -- -j4 -l4
+[1.836s] Invoked command in '/home/mosalam/robot_ws/build/vizanti_server' returned '0': AMENT_PREFIX_PATH=/home/mosalam/robot_ws/install/vizanti_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mosalam/robot_ws/install/vizanti_msgs:/home/mosalam/robot_ws/install/robot:/home/mosalam/robot_ws/install/urdf_tutorial:/home/mosalam/robot_ws/install/serial_motor_demo_msgs:/home/mosalam/robot_ws/install/serial:/home/mosalam/robot_ws/install/rplidar_ros:/home/mosalam/robot_ws/install/multirobot_map_merge:/home/mosalam/robot_ws/install/explore_lite:/home/mosalam/robot_ws/install/diffdrive_arduino:/home/mosalam/robot_ws/install/serial_motor_demo:/home/mosalam/robot_ws/install/custom_explorer:/home/mosalam/robot_ws/install/autonomous_exploration:/opt/ros/humble LD_LIBRARY_PATH=/home/mosalam/robot_ws/install/vizanti_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mosalam/robot_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mosalam/robot_ws/build/vizanti_server -- -j4 -l4
+[1.837s] Invoking command in '/home/mosalam/robot_ws/build/vizanti_server': AMENT_PREFIX_PATH=/home/mosalam/robot_ws/install/vizanti_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mosalam/robot_ws/install/vizanti_msgs:/home/mosalam/robot_ws/install/robot:/home/mosalam/robot_ws/install/urdf_tutorial:/home/mosalam/robot_ws/install/serial_motor_demo_msgs:/home/mosalam/robot_ws/install/serial:/home/mosalam/robot_ws/install/rplidar_ros:/home/mosalam/robot_ws/install/multirobot_map_merge:/home/mosalam/robot_ws/install/explore_lite:/home/mosalam/robot_ws/install/diffdrive_arduino:/home/mosalam/robot_ws/install/serial_motor_demo:/home/mosalam/robot_ws/install/custom_explorer:/home/mosalam/robot_ws/install/autonomous_exploration:/opt/ros/humble LD_LIBRARY_PATH=/home/mosalam/robot_ws/install/vizanti_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mosalam/robot_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mosalam/robot_ws/build/vizanti_server
+[1.846s] -- Install configuration: ""
+[1.846s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//launch
+[1.847s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//launch/vizanti_rws.launch.py
+[1.847s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//launch/vizanti_server.launch.py
+[1.847s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//launch/__pycache__
+[1.847s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//launch/__pycache__/vizanti_server.launch.cpython-310.pyc
+[1.848s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public
+[1.848s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/css
+[1.848s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/css/style.css
+[1.848s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/css/font
+[1.848s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/css/font/TRADEMARKS.txt
+[1.848s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/css/font/ubuntu.mono.ttf
+[1.849s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/css/font/LICENCE.txt
+[1.849s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/css/font/ubuntu.mono.woff
+[1.849s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/css/font/ubuntu.mono.woff2
+[1.849s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/iconbar.html
+[1.849s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets
+[1.849s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/simplegoal.png
+[1.850s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/button.svg
+[1.850s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/battery_unknown.svg
+[1.850s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/default_layout.json
+[1.850s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/speedometer_dial.svg
+[1.850s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/rosbridge_disconnected.svg
+[1.851s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/rosbag.svg
+[1.851s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/pointcloud.svg
+[1.851s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/scan.svg
+[1.851s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/robotmodel.svg
+[1.851s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/tf.svg
+[1.852s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/gridcells.svg
+[1.852s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/temp_unknown.svg
+[1.852s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/joypos.svg
+[1.852s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/battery_80.svg
+[1.852s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/battery_40.svg
+[1.852s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/altimeter_arrow.svg
+[1.853s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/rosbridge_connected.svg
+[1.853s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/node_restart.svg
+[1.853s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/speedometer_icon.svg
+[1.853s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/node_kill.svg
+[1.853s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/altimeter_arrow_green.svg
+[1.854s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/odom.svg
+[1.854s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/joystick.svg
+[1.854s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/rawmap.svg
+[1.854s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/reconfigure.svg
+[1.854s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/image.svg
+[1.854s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/waypoints.svg
+[1.855s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/grid.svg
+[1.855s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/initialpose.png
+[1.855s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/posewithcovariancestamped.svg
+[1.855s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/add.svg
+[1.855s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/satelite.svg
+[1.855s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/button_false.svg
+[1.855s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/rosbag_active.svg
+[1.856s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/rosbridge_reconnect.svg
+[1.856s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/button_true.svg
+[1.856s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/pose.svg
+[1.856s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/battery_100.svg
+[1.856s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/covariance.svg
+[1.856s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/settings.svg
+[1.857s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/icon
+[1.857s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/icon/192.png
+[1.857s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/icon/16.png
+[1.857s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/icon/512.png
+[1.857s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/icon/manifest.json
+[1.857s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/icon/32.png
+[1.858s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/icon/96.png
+[1.858s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/icon/preview.jpg
+[1.858s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/icon/152.png
+[1.858s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/icon/icon.svg
+[1.858s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/costmap.svg
+[1.858s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/altimeter.svg
+[1.859s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/folder.svg
+[1.859s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/altimeter_green.svg
+[1.859s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/range.svg
+[1.859s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/markerarray.svg
+[1.859s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/temp_warm.svg
+[1.860s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/speedometer.svg
+[1.860s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/area.svg
+[1.860s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/battery_20.svg
+[1.860s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/initialpose.svg
+[1.860s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/posearray.svg
+[1.860s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/battery_60.svg
+[1.861s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/map.svg
+[1.861s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/robot_model
+[1.861s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/robot_model/_pancake.png
+[1.861s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/robot_model/_tuna.png
+[1.861s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/robot_model/_rccar.png
+[1.861s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/robot_model/_tortoise.png
+[1.862s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/robot_model/_arrow.png
+[1.862s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/robot_model/_4wd.png
+[1.862s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/robot_model/_sandwich.png
+[1.862s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/robot_model/_2wd.png
+[1.862s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/robot_model/_orca.png
+[1.862s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/robot_model/_hatchback.png
+[1.863s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/robot_model/_dog.png
+[1.863s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/rawmap_transparent.svg
+[1.863s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/temp_cold.svg
+[1.863s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/simplegoal.svg
+[1.863s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/marker.svg
+[1.864s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/nodemgr.svg
+[1.864s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/path.svg
+[1.864s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/tile_error.png
+[1.864s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/temp_hot.svg
+[1.864s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/assets/tile_loading.png
+[1.864s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates
+[1.865s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/teleop
+[1.865s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/teleop/teleop_view.html
+[1.865s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/teleop/teleop_icon.html
+[1.865s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/teleop/teleop_modal.html
+[1.865s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/teleop/teleop_script.js
+[1.865s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/odom
+[1.866s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/odom/odom_view.html
+[1.866s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/odom/odom_modal.html
+[1.866s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/odom/odom_script.js
+[1.866s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/odom/odom_icon.html
+[1.866s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/temperature
+[1.866s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/temperature/temperature_modal.html
+[1.866s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/temperature/temperature_icon.html
+[1.866s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/temperature/temperature_script.js
+[1.867s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/waypoints
+[1.867s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/waypoints/waypoints_script.js
+[1.867s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/waypoints/waypoints_icon.html
+[1.867s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/waypoints/waypoints_view.html
+[1.867s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/waypoints/waypoints_modal.html
+[1.867s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/simplegoal
+[1.868s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/simplegoal/simplegoal_view.html
+[1.868s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/simplegoal/simplegoal_modal.html
+[1.868s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/simplegoal/simplegoal_script.js
+[1.868s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/simplegoal/simplegoal_icon.html
+[1.868s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/reconfigure
+[1.868s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/reconfigure/reconfigure_icon.html
+[1.868s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/reconfigure/reconfigure_modal.html
+[1.868s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/reconfigure/reconfigure_script.js
+[1.869s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/settings
+[1.869s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/settings/settings_modal.html
+[1.869s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/settings/settings_icon.html
+[1.869s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/settings/settings_script.js
+[1.869s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/scan
+[1.869s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/scan/scan_modal.html
+[1.870s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/scan/scan_view.html
+[1.870s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/scan/scan_icon.html
+[1.870s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/scan/scan_script.js
+[1.870s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/altimeter
+[1.870s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/altimeter/altimeter_view.html
+[1.870s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/altimeter/altimeter_icon.html
+[1.870s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/altimeter/altimeter_modal.html
+[1.871s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/altimeter/altimeter_script.js
+[1.871s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/compressedimage
+[1.871s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/compressedimage/compressedimage_icon.html
+[1.871s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/compressedimage/compressedimage_view.html
+[1.871s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/compressedimage/compressedimage_modal.html
+[1.871s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/compressedimage/compressedimage_script.js
+[1.871s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/rosbag
+[1.872s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/rosbag/rosbag_script.js
+[1.872s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/rosbag/rosbag_modal.html
+[1.872s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/rosbag/rosbag_icon.html
+[1.872s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/path
+[1.872s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/path/path_script.js
+[1.872s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/path/path_view.html
+[1.872s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/path/path_icon.html
+[1.873s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/path/path_modal.html
+[1.873s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/satelite
+[1.873s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/satelite/satelite_icon.html
+[1.873s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/satelite/satelite_modal.html
+[1.873s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/satelite/satelite_view.html
+[1.873s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/satelite/satelite_script.js
+[1.873s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/posewithcovariancestamped
+[1.874s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/posewithcovariancestamped/posewithcovariancestamped_script.js
+[1.874s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/posewithcovariancestamped/posewithcovariancestamped_view.html
+[1.874s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/posewithcovariancestamped/posewithcovariancestamped_icon.html
+[1.874s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/posewithcovariancestamped/posewithcovariancestamped_modal.html
+[1.874s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/gridcells
+[1.874s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/gridcells/gridcells_icon.html
+[1.875s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/gridcells/gridcells_modal.html
+[1.875s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/gridcells/gridcells_script.js
+[1.875s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/gridcells/gridcells_view.html
+[1.875s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/grid
+[1.875s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/grid/grid_view.html
+[1.875s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/grid/grid_script.js
+[1.876s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/grid/grid_modal.html
+[1.876s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/grid/grid_icon.html
+[1.876s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/add
+[1.876s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/add/add_modal.html
+[1.876s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/add/add_script.js
+[1.876s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/add/add_icon.html
+[1.877s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/battery
+[1.877s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/battery/battery_script.js
+[1.877s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/battery/battery_modal.html
+[1.877s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/battery/battery_icon.html
+[1.877s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/pointcloud
+[1.877s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/pointcloud/pointcloud_modal.html
+[1.877s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/pointcloud/pointcloud_view.html
+[1.878s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/pointcloud/pointcloud_script.js
+[1.878s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/pointcloud/pointcloud_icon.html
+[1.878s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/folder
+[1.878s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/folder/folder_icon.html
+[1.878s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/folder/folder_modal.html
+[1.878s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/folder/folder_script.js
+[1.878s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/initialpose
+[1.879s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/initialpose/initialpose_script.js
+[1.879s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/initialpose/initialpose_modal.html
+[1.880s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/initialpose/initialpose_icon.html
+[1.880s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/initialpose/initialpose_view.html
+[1.880s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/range
+[1.880s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/range/range_script.js
+[1.880s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/range/range_view.html
+[1.881s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/range/range_icon.html
+[1.881s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/range/range_modal.html
+[1.882s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/tf
+[1.882s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/tf/tf_icon.html
+[1.882s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/tf/tf_modal.html
+[1.882s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/tf/tf_script.js
+[1.882s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/tf/tf_view.html
+[1.882s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/robotmodel
+[1.882s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/robotmodel/robotmodel_script.js
+[1.882s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/robotmodel/robotmodel_view.html
+[1.883s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/robotmodel/robotmodel_icon.html
+[1.883s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/robotmodel/robotmodel_modal.html
+[1.883s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/markerarray
+[1.883s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/markerarray/markerarray_view.html
+[1.883s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/markerarray/markerarray_icon.html
+[1.883s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/markerarray/markerarray_script.js
+[1.884s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/markerarray/markerarray_modal.html
+[1.885s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/area
+[1.885s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/area/area_icon.html
+[1.885s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/area/area_modal.html
+[1.886s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/area/area_view.html
+[1.886s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/area/area_script.js
+[1.886s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/posearray
+[1.886s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/posearray/posearray_modal.html
+[1.886s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/posearray/posearray_view.html
+[1.886s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/posearray/posearray_script.js
+[1.887s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/posearray/posearray_icon.html
+[1.887s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/rosbridge
+[1.887s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/rosbridge/rosbridge_icon.html
+[1.888s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/rosbridge/rosbridge_script.js
+[1.888s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/rosbridge/rosbridge_modal.html
+[1.888s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/button
+[1.888s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/button/button_icon.html
+[1.888s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/button/button_modal.html
+[1.888s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/button/button_script.js
+[1.888s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/map
+[1.889s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/map/map_script.js
+[1.889s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/map/map_icon.html
+[1.889s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/map/map_modal.html
+[1.889s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/map/map_worker.js
+[1.889s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/map/map_view.html
+[1.889s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/nodemgr
+[1.889s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/nodemgr/nodemgr_icon.html
+[1.890s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/nodemgr/nodemgr_modal.html
+[1.890s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/nodemgr/nodemgr_script.js
+[1.890s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/speedometer
+[1.890s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/speedometer/speedometer_modal.html
+[1.890s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/speedometer/speedometer_icon.html
+[1.890s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/templates/speedometer/speedometer_script.js
+[1.891s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/head.html
+[1.891s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/js
+[1.891s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/js/main.js
+[1.891s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/js/modules
+[1.891s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/js/modules/util.js
+[1.891s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/js/modules/tf.js
+[1.891s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/js/modules/joystick.js
+[1.892s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/js/modules/navsat.js
+[1.892s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/js/modules/rosbridge.js
+[1.892s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/js/modules/view.js
+[1.892s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/js/modules/persistent.js
+[1.892s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/js/modules/status.js
+[1.892s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/js/modules/database.js
+[1.892s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/js/modules/elements.js
+[1.892s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/js/lib
+[1.893s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/js/lib/nipplejs.min.js
+[1.893s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/js/lib/quaternion.min.js
+[1.893s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/js/lib/roslib.min.js
+[1.893s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/js/lib/numericjs_LICENSE.txt
+[1.893s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/js/lib/roslibjs_LICENSE.txt
+[1.893s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/js/lib/nipplejs_LICENSE.txt
+[1.893s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/js/lib/quaternionjs_LICENSE.txt
+[1.893s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/js/lib/nipplejs.js
+[1.893s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/js/lib/numeric.min.js
+[1.894s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/js/setup.js
+[1.894s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server//public/index.html
+[1.894s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/lib/vizanti_server/server.py
+[1.895s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/lib/vizanti_server/service_handler.py
+[1.896s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/ament_index/resource_index/package_run_dependencies/vizanti_server
+[1.896s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/ament_index/resource_index/parent_prefix_path/vizanti_server
+[1.896s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server/environment/ament_prefix_path.sh
+[1.896s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server/environment/ament_prefix_path.dsv
+[1.897s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server/environment/path.sh
+[1.897s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server/environment/path.dsv
+[1.897s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server/local_setup.bash
+[1.897s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server/local_setup.sh
+[1.897s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server/local_setup.zsh
+[1.897s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server/local_setup.dsv
+[1.897s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server/package.dsv
+[1.897s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/ament_index/resource_index/packages/vizanti_server
+[1.897s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server/cmake/vizanti_serverConfig.cmake
+[1.898s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server/cmake/vizanti_serverConfig-version.cmake
+[1.898s] -- Installing: /home/mosalam/robot_ws/install/vizanti_server/share/vizanti_server/package.xml
+[1.898s] Invoked command in '/home/mosalam/robot_ws/build/vizanti_server' returned '0': AMENT_PREFIX_PATH=/home/mosalam/robot_ws/install/vizanti_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mosalam/robot_ws/install/vizanti_msgs:/home/mosalam/robot_ws/install/robot:/home/mosalam/robot_ws/install/urdf_tutorial:/home/mosalam/robot_ws/install/serial_motor_demo_msgs:/home/mosalam/robot_ws/install/serial:/home/mosalam/robot_ws/install/rplidar_ros:/home/mosalam/robot_ws/install/multirobot_map_merge:/home/mosalam/robot_ws/install/explore_lite:/home/mosalam/robot_ws/install/diffdrive_arduino:/home/mosalam/robot_ws/install/serial_motor_demo:/home/mosalam/robot_ws/install/custom_explorer:/home/mosalam/robot_ws/install/autonomous_exploration:/opt/ros/humble LD_LIBRARY_PATH=/home/mosalam/robot_ws/install/vizanti_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mosalam/robot_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mosalam/robot_ws/build/vizanti_server

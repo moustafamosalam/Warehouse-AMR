@@ -1,0 +1,14 @@
+{
+  "package_name": "vizanti_msgs",
+  "non_idl_tuples": [
+    "/home/mosalam/robot_ws/src/vizanti/vizanti_msgs:srv/GetNodeParameters.srv",
+    "/home/mosalam/robot_ws/src/vizanti/vizanti_msgs:srv/SetNodeParameter.srv",
+    "/home/mosalam/robot_ws/src/vizanti/vizanti_msgs:srv/SaveMap.srv",
+    "/home/mosalam/robot_ws/src/vizanti/vizanti_msgs:srv/LoadMap.srv",
+    "/home/mosalam/robot_ws/src/vizanti/vizanti_msgs:srv/RecordRosbag.srv",
+    "/home/mosalam/robot_ws/src/vizanti/vizanti_msgs:srv/ManageNode.srv",
+    "/home/mosalam/robot_ws/src/vizanti/vizanti_msgs:srv/ListPackages.srv",
+    "/home/mosalam/robot_ws/src/vizanti/vizanti_msgs:srv/ListExecutables.srv",
+    "/home/mosalam/robot_ws/src/vizanti/vizanti_msgs:srv/ListLifecycles.srv"
+  ]
+}

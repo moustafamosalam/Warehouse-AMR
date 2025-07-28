@@ -1,0 +1,284 @@
+[4.784s] DEBUG:colcon:Command line arguments: ['/home/mosalam/.local/bin/colcon', 'list', '-p', '--base-paths', '/home/mosalam/real_robot/robot_ws']
+[4.784s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/mosalam/real_robot/robot_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x732f1c3fb4c0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x732f1c5f41f0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x732f1c5f41f0>>)
+[10.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[10.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[10.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[10.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[10.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[10.300s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mosalam/real_robot/robot_ws'
+[10.301s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws) by extensions ['ignore', 'ignore_ament_install']
+[10.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws) by extension 'ignore'
+[10.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws) by extension 'ignore_ament_install'
+[10.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws) by extensions ['colcon_pkg']
+[10.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws) by extension 'colcon_pkg'
+[10.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws) by extensions ['colcon_meta']
+[10.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws) by extension 'colcon_meta'
+[10.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws) by extensions ['ros']
+[10.314s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws) by extension 'ros'
+[10.533s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws) by extensions ['cmake', 'python']
+[10.537s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws) by extension 'cmake'
+[10.545s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws) by extension 'python'
+[10.545s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws) by extensions ['python_setup_py']
+[10.545s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws) by extension 'python_setup_py'
+[10.548s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[10.550s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/build) by extension 'ignore'
+[10.554s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/build) ignored
+[10.554s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[10.554s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/install) by extension 'ignore'
+[10.554s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/install) ignored
+[10.555s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[10.555s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/log) by extension 'ignore'
+[10.555s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/log) ignored
+[10.555s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[10.555s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src) by extension 'ignore'
+[10.582s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src) by extension 'ignore_ament_install'
+[10.586s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src) by extensions ['colcon_pkg']
+[10.586s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src) by extension 'colcon_pkg'
+[10.586s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src) by extensions ['colcon_meta']
+[10.587s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src) by extension 'colcon_meta'
+[10.595s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src) by extensions ['ros']
+[10.595s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src) by extension 'ros'
+[10.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src) by extensions ['cmake', 'python']
+[10.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src) by extension 'cmake'
+[10.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src) by extension 'python'
+[10.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src) by extensions ['python_setup_py']
+[10.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src) by extension 'python_setup_py'
+[10.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/Autonomous-Explorer-and-Mapper-ros2-nav2) by extensions ['ignore', 'ignore_ament_install']
+[10.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/Autonomous-Explorer-and-Mapper-ros2-nav2) by extension 'ignore'
+[10.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/Autonomous-Explorer-and-Mapper-ros2-nav2) by extension 'ignore_ament_install'
+[10.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/Autonomous-Explorer-and-Mapper-ros2-nav2) by extensions ['colcon_pkg']
+[10.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/Autonomous-Explorer-and-Mapper-ros2-nav2) by extension 'colcon_pkg'
+[10.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/Autonomous-Explorer-and-Mapper-ros2-nav2) by extensions ['colcon_meta']
+[10.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/Autonomous-Explorer-and-Mapper-ros2-nav2) by extension 'colcon_meta'
+[10.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/Autonomous-Explorer-and-Mapper-ros2-nav2) by extensions ['ros']
+[10.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/Autonomous-Explorer-and-Mapper-ros2-nav2) by extension 'ros'
+[10.677s] DEBUG:colcon.colcon_core.package_identification:Package '/home/mosalam/real_robot/robot_ws/src/Autonomous-Explorer-and-Mapper-ros2-nav2' with type 'ros.ament_python' and name 'custom_explorer'
+[10.677s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/ROS2-FrontierBaseExplorationForAutonomousRobot) by extensions ['ignore', 'ignore_ament_install']
+[10.697s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/ROS2-FrontierBaseExplorationForAutonomousRobot) by extension 'ignore'
+[10.697s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/ROS2-FrontierBaseExplorationForAutonomousRobot) by extension 'ignore_ament_install'
+[10.698s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/ROS2-FrontierBaseExplorationForAutonomousRobot) by extensions ['colcon_pkg']
+[10.698s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/ROS2-FrontierBaseExplorationForAutonomousRobot) by extension 'colcon_pkg'
+[10.698s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/ROS2-FrontierBaseExplorationForAutonomousRobot) by extensions ['colcon_meta']
+[10.698s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/ROS2-FrontierBaseExplorationForAutonomousRobot) by extension 'colcon_meta'
+[10.698s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/ROS2-FrontierBaseExplorationForAutonomousRobot) by extensions ['ros']
+[10.698s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/ROS2-FrontierBaseExplorationForAutonomousRobot) by extension 'ros'
+[10.711s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/ROS2-FrontierBaseExplorationForAutonomousRobot) by extensions ['cmake', 'python']
+[10.724s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/ROS2-FrontierBaseExplorationForAutonomousRobot) by extension 'cmake'
+[10.724s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/ROS2-FrontierBaseExplorationForAutonomousRobot) by extension 'python'
+[10.725s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/ROS2-FrontierBaseExplorationForAutonomousRobot) by extensions ['python_setup_py']
+[10.725s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/ROS2-FrontierBaseExplorationForAutonomousRobot) by extension 'python_setup_py'
+[10.725s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/ROS2-FrontierBaseExplorationForAutonomousRobot/autonomous_exploration) by extensions ['ignore', 'ignore_ament_install']
+[10.725s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/ROS2-FrontierBaseExplorationForAutonomousRobot/autonomous_exploration) by extension 'ignore'
+[10.725s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/ROS2-FrontierBaseExplorationForAutonomousRobot/autonomous_exploration) by extension 'ignore_ament_install'
+[10.725s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/ROS2-FrontierBaseExplorationForAutonomousRobot/autonomous_exploration) by extensions ['colcon_pkg']
+[10.725s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/ROS2-FrontierBaseExplorationForAutonomousRobot/autonomous_exploration) by extension 'colcon_pkg'
+[10.743s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/ROS2-FrontierBaseExplorationForAutonomousRobot/autonomous_exploration) by extensions ['colcon_meta']
+[10.743s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/ROS2-FrontierBaseExplorationForAutonomousRobot/autonomous_exploration) by extension 'colcon_meta'
+[10.743s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/ROS2-FrontierBaseExplorationForAutonomousRobot/autonomous_exploration) by extensions ['ros']
+[10.743s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/ROS2-FrontierBaseExplorationForAutonomousRobot/autonomous_exploration) by extension 'ros'
+[10.744s] DEBUG:colcon.colcon_core.package_identification:Package '/home/mosalam/real_robot/robot_ws/src/ROS2-FrontierBaseExplorationForAutonomousRobot/autonomous_exploration' with type 'ros.ament_python' and name 'autonomous_exploration'
+[10.756s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/diffdrive_arduino) by extensions ['ignore', 'ignore_ament_install']
+[10.756s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/diffdrive_arduino) by extension 'ignore'
+[10.756s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/diffdrive_arduino) by extension 'ignore_ament_install'
+[10.756s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/diffdrive_arduino) by extensions ['colcon_pkg']
+[10.757s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/diffdrive_arduino) by extension 'colcon_pkg'
+[10.757s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/diffdrive_arduino) by extensions ['colcon_meta']
+[10.757s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/diffdrive_arduino) by extension 'colcon_meta'
+[10.757s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/diffdrive_arduino) by extensions ['ros']
+[10.757s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/diffdrive_arduino) by extension 'ros'
+[10.775s] DEBUG:colcon.colcon_core.package_identification:Package '/home/mosalam/real_robot/robot_ws/src/diffdrive_arduino' with type 'ros.ament_cmake' and name 'diffdrive_arduino'
+[10.776s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/robot) by extensions ['ignore', 'ignore_ament_install']
+[10.776s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/robot) by extension 'ignore'
+[10.776s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/robot) by extension 'ignore_ament_install'
+[10.776s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/robot) by extensions ['colcon_pkg']
+[10.787s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/robot) by extension 'colcon_pkg'
+[10.789s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/robot) by extensions ['colcon_meta']
+[10.789s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/robot) by extension 'colcon_meta'
+[10.789s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/robot) by extensions ['ros']
+[10.789s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/robot) by extension 'ros'
+[10.798s] DEBUG:colcon.colcon_core.package_identification:Package '/home/mosalam/real_robot/robot_ws/src/robot' with type 'ros.ament_cmake' and name 'robot'
+[10.798s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/rplidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[10.798s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/rplidar_ros2) by extension 'ignore'
+[10.798s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/rplidar_ros2) by extension 'ignore_ament_install'
+[10.798s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/rplidar_ros2) by extensions ['colcon_pkg']
+[10.798s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/rplidar_ros2) by extension 'colcon_pkg'
+[10.798s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/rplidar_ros2) by extensions ['colcon_meta']
+[10.803s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/rplidar_ros2) by extension 'colcon_meta'
+[10.803s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/rplidar_ros2) by extensions ['ros']
+[10.803s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/rplidar_ros2) by extension 'ros'
+[10.804s] DEBUG:colcon.colcon_core.package_identification:Package '/home/mosalam/real_robot/robot_ws/src/rplidar_ros2' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[10.807s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/serial) by extensions ['ignore', 'ignore_ament_install']
+[10.811s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/serial) by extension 'ignore'
+[10.811s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/serial) by extension 'ignore_ament_install'
+[10.811s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/serial) by extensions ['colcon_pkg']
+[10.818s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/serial) by extension 'colcon_pkg'
+[10.818s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/serial) by extensions ['colcon_meta']
+[10.818s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/serial) by extension 'colcon_meta'
+[10.818s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/serial) by extensions ['ros']
+[10.818s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/serial) by extension 'ros'
+[10.827s] DEBUG:colcon.colcon_core.package_identification:Package '/home/mosalam/real_robot/robot_ws/src/serial' with type 'ros.ament_cmake' and name 'serial'
+[10.827s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/serial_motor_demo) by extensions ['ignore', 'ignore_ament_install']
+[10.827s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/serial_motor_demo) by extension 'ignore'
+[10.827s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/serial_motor_demo) by extension 'ignore_ament_install'
+[10.827s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/serial_motor_demo) by extensions ['colcon_pkg']
+[10.827s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/serial_motor_demo) by extension 'colcon_pkg'
+[10.827s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/serial_motor_demo) by extensions ['colcon_meta']
+[10.827s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/serial_motor_demo) by extension 'colcon_meta'
+[10.835s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/serial_motor_demo) by extensions ['ros']
+[10.836s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/serial_motor_demo) by extension 'ros'
+[10.836s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/serial_motor_demo) by extensions ['cmake', 'python']
+[10.836s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/serial_motor_demo) by extension 'cmake'
+[10.836s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/serial_motor_demo) by extension 'python'
+[10.836s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/serial_motor_demo) by extensions ['python_setup_py']
+[10.836s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/serial_motor_demo) by extension 'python_setup_py'
+[10.836s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/serial_motor_demo/serial_motor_demo) by extensions ['ignore', 'ignore_ament_install']
+[10.837s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/serial_motor_demo/serial_motor_demo) by extension 'ignore'
+[10.837s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/serial_motor_demo/serial_motor_demo) by extension 'ignore_ament_install'
+[10.837s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/serial_motor_demo/serial_motor_demo) by extensions ['colcon_pkg']
+[10.837s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/serial_motor_demo/serial_motor_demo) by extension 'colcon_pkg'
+[10.837s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/serial_motor_demo/serial_motor_demo) by extensions ['colcon_meta']
+[10.848s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/serial_motor_demo/serial_motor_demo) by extension 'colcon_meta'
+[10.848s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/serial_motor_demo/serial_motor_demo) by extensions ['ros']
+[10.848s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/serial_motor_demo/serial_motor_demo) by extension 'ros'
+[10.849s] DEBUG:colcon.colcon_core.package_identification:Package '/home/mosalam/real_robot/robot_ws/src/serial_motor_demo/serial_motor_demo' with type 'ros.ament_python' and name 'serial_motor_demo'
+[10.850s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[10.850s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/serial_motor_demo/serial_motor_demo_msgs) by extension 'ignore'
+[10.850s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/serial_motor_demo/serial_motor_demo_msgs) by extension 'ignore_ament_install'
+[10.850s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['colcon_pkg']
+[10.850s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/serial_motor_demo/serial_motor_demo_msgs) by extension 'colcon_pkg'
+[10.850s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['colcon_meta']
+[10.850s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/serial_motor_demo/serial_motor_demo_msgs) by extension 'colcon_meta'
+[10.850s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['ros']
+[10.850s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/serial_motor_demo/serial_motor_demo_msgs) by extension 'ros'
+[10.868s] DEBUG:colcon.colcon_core.package_identification:Package '/home/mosalam/real_robot/robot_ws/src/serial_motor_demo/serial_motor_demo_msgs' with type 'ros.ament_cmake' and name 'serial_motor_demo_msgs'
+[10.868s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/urdf_tutorial) by extensions ['ignore', 'ignore_ament_install']
+[10.869s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/urdf_tutorial) by extension 'ignore'
+[10.869s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/urdf_tutorial) by extension 'ignore_ament_install'
+[10.877s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/urdf_tutorial) by extensions ['colcon_pkg']
+[10.877s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/urdf_tutorial) by extension 'colcon_pkg'
+[10.877s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/urdf_tutorial) by extensions ['colcon_meta']
+[10.877s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/urdf_tutorial) by extension 'colcon_meta'
+[10.877s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/urdf_tutorial) by extensions ['ros']
+[10.877s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/urdf_tutorial) by extension 'ros'
+[10.889s] DEBUG:colcon.colcon_core.package_identification:Package '/home/mosalam/real_robot/robot_ws/src/urdf_tutorial' with type 'ros.ament_cmake' and name 'urdf_tutorial'
+[10.889s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti) by extensions ['ignore', 'ignore_ament_install']
+[10.889s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti) by extension 'ignore'
+[10.899s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti) by extension 'ignore_ament_install'
+[10.899s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti) by extensions ['colcon_pkg']
+[10.899s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti) by extension 'colcon_pkg'
+[10.899s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti) by extensions ['colcon_meta']
+[10.899s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti) by extension 'colcon_meta'
+[10.900s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti) by extensions ['ros']
+[10.900s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti) by extension 'ros'
+[10.900s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti) by extensions ['cmake', 'python']
+[10.900s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti) by extension 'cmake'
+[10.900s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti) by extension 'python'
+[10.900s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti) by extensions ['python_setup_py']
+[10.900s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti) by extension 'python_setup_py'
+[10.900s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/docker) by extensions ['ignore', 'ignore_ament_install']
+[10.913s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/docker) by extension 'ignore'
+[10.916s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/docker) by extension 'ignore_ament_install'
+[10.916s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/docker) by extensions ['colcon_pkg']
+[10.916s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/docker) by extension 'colcon_pkg'
+[10.916s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/docker) by extensions ['colcon_meta']
+[10.916s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/docker) by extension 'colcon_meta'
+[10.916s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/docker) by extensions ['ros']
+[10.917s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/docker) by extension 'ros'
+[10.917s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/docker) by extensions ['cmake', 'python']
+[10.917s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/docker) by extension 'cmake'
+[10.917s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/docker) by extension 'python'
+[10.917s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/docker) by extensions ['python_setup_py']
+[10.917s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/docker) by extension 'python_setup_py'
+[10.917s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/public) by extensions ['ignore', 'ignore_ament_install']
+[10.917s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/public) by extension 'ignore'
+[10.917s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/public) by extension 'ignore_ament_install'
+[10.917s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/public) by extensions ['colcon_pkg']
+[10.918s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/public) by extension 'colcon_pkg'
+[10.941s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/public) by extensions ['colcon_meta']
+[10.941s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/public) by extension 'colcon_meta'
+[10.941s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/public) by extensions ['ros']
+[10.941s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/public) by extension 'ros'
+[10.943s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/public) by extensions ['cmake', 'python']
+[10.943s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/public) by extension 'cmake'
+[10.943s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/public) by extension 'python'
+[10.943s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/public) by extensions ['python_setup_py']
+[10.943s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/public) by extension 'python_setup_py'
+[10.943s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/public/css) by extensions ['ignore', 'ignore_ament_install']
+[10.943s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/public/css) by extension 'ignore'
+[10.952s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/public/css) by extension 'ignore_ament_install'
+[10.955s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/public/css) by extensions ['colcon_pkg']
+[10.955s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/public/css) by extension 'colcon_pkg'
+[10.955s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/public/css) by extensions ['colcon_meta']
+[10.955s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/public/css) by extension 'colcon_meta'
+[10.955s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/public/css) by extensions ['ros']
+[10.955s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/public/css) by extension 'ros'
+[10.955s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/public/css) by extensions ['cmake', 'python']
+[10.955s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/public/css) by extension 'cmake'
+[10.955s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/public/css) by extension 'python'
+[10.958s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/public/css) by extensions ['python_setup_py']
+[10.958s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/public/css) by extension 'python_setup_py'
+[10.958s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/public/css/font) by extensions ['ignore', 'ignore_ament_install']
+[10.958s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/public/css/font) by extension 'ignore'
+[10.959s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/public/css/font) by extension 'ignore_ament_install'
+[10.978s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/public/css/font) by extensions ['colcon_pkg']
+[10.978s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/public/css/font) by extension 'colcon_pkg'
+[10.978s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/public/css/font) by extensions ['colcon_meta']
+[10.978s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/public/css/font) by extension 'colcon_meta'
+[10.978s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/public/css/font) by extensions ['ros']
+[10.978s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/public/css/font) by extension 'ros'
+[10.991s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/public/css/font) by extensions ['cmake', 'python']
+[10.991s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/public/css/font) by extension 'cmake'
+[10.991s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/public/css/font) by extension 'python'
+[10.991s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/public/css/font) by extensions ['python_setup_py']
+[10.991s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/public/css/font) by extension 'python_setup_py'
+[10.991s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/vizanti) by extensions ['ignore', 'ignore_ament_install']
+[10.998s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/vizanti) by extension 'ignore'
+[10.998s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/vizanti) by extension 'ignore_ament_install'
+[10.998s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/vizanti) by extensions ['colcon_pkg']
+[11.006s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/vizanti) by extension 'colcon_pkg'
+[11.007s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/vizanti) by extensions ['colcon_meta']
+[11.007s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/vizanti) by extension 'colcon_meta'
+[11.007s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/vizanti) by extensions ['ros']
+[11.007s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/vizanti) by extension 'ros'
+[11.021s] DEBUG:colcon.colcon_core.package_identification:Package '/home/mosalam/real_robot/robot_ws/src/vizanti/vizanti' with type 'ros.ament_cmake' and name 'vizanti'
+[11.022s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/vizanti_cpp) by extensions ['ignore', 'ignore_ament_install']
+[11.022s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/vizanti_cpp) by extension 'ignore'
+[11.022s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/vizanti_cpp) by extension 'ignore_ament_install'
+[11.022s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/vizanti_cpp) by extensions ['colcon_pkg']
+[11.022s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/vizanti_cpp) by extension 'colcon_pkg'
+[11.022s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/vizanti_cpp) by extensions ['colcon_meta']
+[11.022s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/vizanti_cpp) by extension 'colcon_meta'
+[11.022s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/vizanti_cpp) by extensions ['ros']
+[11.022s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/vizanti_cpp) by extension 'ros'
+[11.024s] DEBUG:colcon.colcon_core.package_identification:Package '/home/mosalam/real_robot/robot_ws/src/vizanti/vizanti_cpp' with type 'ros.ament_cmake' and name 'vizanti_cpp'
+[11.025s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/vizanti_demos) by extensions ['ignore', 'ignore_ament_install']
+[11.025s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/vizanti_demos) by extension 'ignore'
+[11.025s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/vizanti_demos) by extension 'ignore_ament_install'
+[11.026s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/vizanti_demos) by extensions ['colcon_pkg']
+[11.026s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/vizanti_demos) by extension 'colcon_pkg'
+[11.028s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/vizanti_demos) by extensions ['colcon_meta']
+[11.029s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/vizanti_demos) by extension 'colcon_meta'
+[11.029s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/vizanti_demos) by extensions ['ros']
+[11.029s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/vizanti_demos) by extension 'ros'
+[11.033s] DEBUG:colcon.colcon_core.package_identification:Package '/home/mosalam/real_robot/robot_ws/src/vizanti/vizanti_demos' with type 'ros.ament_cmake' and name 'vizanti_demos'
+[11.033s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/vizanti_msgs) by extensions ['ignore', 'ignore_ament_install']
+[11.034s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/vizanti_msgs) by extension 'ignore'
+[11.034s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/vizanti_msgs) by extension 'ignore_ament_install'
+[11.034s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/vizanti_msgs) by extensions ['colcon_pkg']
+[11.034s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/vizanti_msgs) by extension 'colcon_pkg'
+[11.035s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/vizanti_msgs) by extensions ['colcon_meta']
+[11.035s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/vizanti_msgs) by extension 'colcon_meta'
+[11.035s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/vizanti_msgs) by extensions ['ros']
+[11.035s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/vizanti_msgs) by extension 'ros'
+[11.036s] DEBUG:colcon.colcon_core.package_identification:Package '/home/mosalam/real_robot/robot_ws/src/vizanti/vizanti_msgs' with type 'ros.ament_cmake' and name 'vizanti_msgs'
+[11.037s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/vizanti_server) by extensions ['ignore', 'ignore_ament_install']
+[11.038s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/vizanti_server) by extension 'ignore'
+[11.039s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/vizanti_server) by extension 'ignore_ament_install'
+[11.039s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/vizanti_server) by extensions ['colcon_pkg']
+[11.039s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/vizanti_server) by extension 'colcon_pkg'
+[11.039s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/vizanti_server) by extensions ['colcon_meta']
+[11.039s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/vizanti_server) by extension 'colcon_meta'
+[11.039s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/vizanti_server) by extensions ['ros']
+[11.039s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mosalam/real_robot/robot_ws/src/vizanti/vizanti_server) by extension 'ros'
+[11.054s] DEBUG:colcon.colcon_core.package_identification:Package '/home/mosalam/real_robot/robot_ws/src/vizanti/vizanti_server' with type 'ros.ament_cmake' and name 'vizanti_server'
+[11.055s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

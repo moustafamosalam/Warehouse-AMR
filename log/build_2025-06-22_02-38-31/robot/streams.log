@@ -1,0 +1,99 @@
+[0.024s] Invoking command in '/home/mosalam/robot_ws/build/robot': AMENT_PREFIX_PATH=/home/mosalam/robot_ws/install/urdf_tutorial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mosalam/robot_ws/install/urdf_tutorial:/home/mosalam/robot_ws/install/robot:/home/mosalam/robot_ws/install/serial_motor_demo_msgs:/home/mosalam/robot_ws/install/serial:/home/mosalam/robot_ws/install/rplidar_ros:/home/mosalam/robot_ws/install/diffdrive_arduino:/home/mosalam/robot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake /home/mosalam/robot_ws/src/robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mosalam/robot_ws/install/robot
+[0.179s] -- The C compiler identification is GNU 11.4.0
+[0.376s] -- The CXX compiler identification is GNU 11.4.0
+[0.394s] -- Detecting C compiler ABI info
+[0.523s] -- Detecting C compiler ABI info - done
+[0.561s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.561s] -- Detecting C compile features
+[0.569s] -- Detecting C compile features - done
+[0.574s] -- Detecting CXX compiler ABI info
+[0.845s] -- Detecting CXX compiler ABI info - done
+[0.879s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.880s] -- Detecting CXX compile features
+[0.883s] -- Detecting CXX compile features - done
+[0.891s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.205s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.326s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.388s] -- Found urdf_tutorial: 1.1.0 (/home/mosalam/robot_ws/install/urdf_tutorial/share/urdf_tutorial/cmake)
+[1.390s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.550s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.550s] -- Added test 'lint_cmake' to check CMake code style
+[1.552s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.557s] -- Added test 'xmllint' to check XML markup files
+[1.563s] -- Configuring done
+[1.565s] -- Generating done
+[1.568s] -- Build files have been written to: /home/mosalam/robot_ws/build/robot
+[1.575s] Invoked command in '/home/mosalam/robot_ws/build/robot' returned '0': AMENT_PREFIX_PATH=/home/mosalam/robot_ws/install/urdf_tutorial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mosalam/robot_ws/install/urdf_tutorial:/home/mosalam/robot_ws/install/robot:/home/mosalam/robot_ws/install/serial_motor_demo_msgs:/home/mosalam/robot_ws/install/serial:/home/mosalam/robot_ws/install/rplidar_ros:/home/mosalam/robot_ws/install/diffdrive_arduino:/home/mosalam/robot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake /home/mosalam/robot_ws/src/robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mosalam/robot_ws/install/robot
+[1.576s] Invoking command in '/home/mosalam/robot_ws/build/robot': AMENT_PREFIX_PATH=/home/mosalam/robot_ws/install/urdf_tutorial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mosalam/robot_ws/install/urdf_tutorial:/home/mosalam/robot_ws/install/robot:/home/mosalam/robot_ws/install/serial_motor_demo_msgs:/home/mosalam/robot_ws/install/serial:/home/mosalam/robot_ws/install/rplidar_ros:/home/mosalam/robot_ws/install/diffdrive_arduino:/home/mosalam/robot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/mosalam/robot_ws/build/robot -- -j4 -l4
+[1.641s] Invoked command in '/home/mosalam/robot_ws/build/robot' returned '0': AMENT_PREFIX_PATH=/home/mosalam/robot_ws/install/urdf_tutorial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mosalam/robot_ws/install/urdf_tutorial:/home/mosalam/robot_ws/install/robot:/home/mosalam/robot_ws/install/serial_motor_demo_msgs:/home/mosalam/robot_ws/install/serial:/home/mosalam/robot_ws/install/rplidar_ros:/home/mosalam/robot_ws/install/diffdrive_arduino:/home/mosalam/robot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/mosalam/robot_ws/build/robot -- -j4 -l4
+[1.642s] Invoking command in '/home/mosalam/robot_ws/build/robot': AMENT_PREFIX_PATH=/home/mosalam/robot_ws/install/urdf_tutorial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mosalam/robot_ws/install/urdf_tutorial:/home/mosalam/robot_ws/install/robot:/home/mosalam/robot_ws/install/serial_motor_demo_msgs:/home/mosalam/robot_ws/install/serial:/home/mosalam/robot_ws/install/rplidar_ros:/home/mosalam/robot_ws/install/diffdrive_arduino:/home/mosalam/robot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/mosalam/robot_ws/build/robot
+[1.654s] -- Install configuration: ""
+[1.654s] -- Execute custom install script
+[1.654s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/config/dfdf.yaml
+[1.668s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/config/ekf.yaml
+[1.682s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/config/lidar_filter.yaml
+[1.697s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/config/mapper_params_online_async.yaml
+[1.712s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/config/mpu_params.yaml
+[1.724s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/config/my_controllers.yaml
+[1.739s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/config/my_map_save.pgm
+[1.753s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/config/my_map_save.yaml
+[1.768s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/config/nav2_params.yaml
+[1.783s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/config/twist_mux.yaml
+[1.803s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/description/colors.xacro
+[1.812s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/description/gazebo_control.xacro
+[1.827s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/description/imu_sensor.xacro
+[1.840s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/description/inertial_macros.xacro
+[1.853s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/description/lidar.xacro
+[1.867s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/description/robot.urdf.xacro
+[1.885s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/description/robot_core.xacro
+[1.897s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/launch/bringup_launch.py
+[1.910s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/launch/filter_lidar.launch.py
+[1.923s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/launch/launch_robot.launch.py
+[1.936s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/launch/launch_sim.launch.py
+[1.948s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/launch/localization_launch.py
+[1.960s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/launch/navigation_launch.py
+[1.973s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/launch/online_async_launch.py
+[1.984s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/launch/ros2_mpu6050.launch.py
+[1.996s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/launch/rplidar.launch.py
+[2.007s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/launch/rsp.launch.py
+[2.020s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/launch/slam_launch.py
+[2.031s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/worlds/myworld.world
+[2.043s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/worlds/obstacles.world
+[2.055s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/rviz/main.rviz
+[2.070s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/rviz/urdf_config.rviz
+[2.081s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/maps/my_map_save.pgm
+[2.094s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/maps/my_map_save.yaml
+[2.108s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/maps/my_map_serialize.data
+[2.122s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/maps/my_map_serialize.posegraph
+[2.133s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/meshes/LEFT_wheel_drive.STL
+[2.146s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/meshes/LF_caster.STL
+[2.160s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/meshes/LR_Caster.STL
+[2.176s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/meshes/Left_motor.STL
+[2.187s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/meshes/Lidar.STL
+[2.201s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/meshes/RF_caster.STL
+[2.214s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/meshes/RR_caster.STL
+[2.228s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/meshes/Right_motor.STL
+[2.242s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/meshes/Right_wheel_drive.STL
+[2.254s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/meshes/base_link.STL
+[2.268s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/urdf/Chassis_diffrential_assembly_Lidar_low.csv
+[2.283s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/urdf/Chassis_diffrential_assembly_Lidar_low.urdf
+[2.296s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/urdf/robot.urdf.xacro
+[2.310s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/urdf/ros2_control.xacro
+[2.325s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/src/simple_scan_filter.py
+[2.339s] -- Symlinking: /home/mosalam/robot_ws/install/robot/lib/robot/simple_scan_filter.py
+[2.353s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/ament_index/resource_index/package_run_dependencies/robot
+[2.370s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/ament_index/resource_index/parent_prefix_path/robot
+[2.385s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/environment/ament_prefix_path.sh
+[2.396s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/environment/ament_prefix_path.dsv
+[2.410s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/environment/path.sh
+[2.423s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/environment/path.dsv
+[2.437s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/local_setup.bash
+[2.450s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/local_setup.sh
+[2.464s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/local_setup.zsh
+[2.477s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/local_setup.dsv
+[2.490s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/package.dsv
+[2.504s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/ament_index/resource_index/packages/robot
+[2.517s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/cmake/robotConfig.cmake
+[2.530s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/cmake/robotConfig-version.cmake
+[2.544s] -- Symlinking: /home/mosalam/robot_ws/install/robot/share/robot/package.xml
+[2.560s] Invoked command in '/home/mosalam/robot_ws/build/robot' returned '0': AMENT_PREFIX_PATH=/home/mosalam/robot_ws/install/urdf_tutorial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mosalam/robot_ws/install/urdf_tutorial:/home/mosalam/robot_ws/install/robot:/home/mosalam/robot_ws/install/serial_motor_demo_msgs:/home/mosalam/robot_ws/install/serial:/home/mosalam/robot_ws/install/rplidar_ros:/home/mosalam/robot_ws/install/diffdrive_arduino:/home/mosalam/robot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/mosalam/robot_ws/build/robot

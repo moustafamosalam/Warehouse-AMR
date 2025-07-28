@@ -1,0 +1,22 @@
+[0.606s] Invoking command in '/home/mosalam/robot_ws/src/serial_motor_demo/serial_motor_demo': CMAKE_PREFIX_PATH=/home/mosalam/robot_ws/install/serial_motor_demo_msgs:/home/mosalam/robot_ws/install/robot:/home/mosalam/robot_ws/install/urdf_tutorial:/home/mosalam/robot_ws/install/serial:/home/mosalam/robot_ws/install/rplidar_ros:/home/mosalam/robot_ws/install/diffdrive_arduino PYTHONPATH=/home/mosalam/robot_ws/build/serial_motor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mosalam/robot_ws/install/serial_motor_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/serial_motor_demo build --build-base /home/mosalam/robot_ws/build/serial_motor_demo/build install --record /home/mosalam/robot_ws/build/serial_motor_demo/install.log --single-version-externally-managed install_data
+[0.834s] running egg_info
+[0.835s] writing ../../../build/serial_motor_demo/serial_motor_demo.egg-info/PKG-INFO
+[0.835s] writing dependency_links to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/dependency_links.txt
+[0.835s] writing entry points to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/entry_points.txt
+[0.835s] writing requirements to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/requires.txt
+[0.835s] writing top-level names to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/top_level.txt
+[0.837s] reading manifest file '../../../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'
+[0.838s] writing manifest file '../../../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'
+[0.838s] running build
+[0.838s] running build_py
+[0.838s] running install
+[0.839s] running install_lib
+[0.840s] running install_data
+[0.840s] running install_egg_info
+[0.842s] removing '/home/mosalam/robot_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo-0.0.0-py3.10.egg-info' (and everything under it)
+[0.842s] Copying ../../../build/serial_motor_demo/serial_motor_demo.egg-info to /home/mosalam/robot_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo-0.0.0-py3.10.egg-info
+[0.843s] running install_scripts
+[0.863s] Installing driver script to /home/mosalam/robot_ws/install/serial_motor_demo/lib/serial_motor_demo
+[0.863s] Installing gui script to /home/mosalam/robot_ws/install/serial_motor_demo/lib/serial_motor_demo
+[0.863s] writing list of installed files to '/home/mosalam/robot_ws/build/serial_motor_demo/install.log'
+[0.893s] Invoked command in '/home/mosalam/robot_ws/src/serial_motor_demo/serial_motor_demo' returned '0': CMAKE_PREFIX_PATH=/home/mosalam/robot_ws/install/serial_motor_demo_msgs:/home/mosalam/robot_ws/install/robot:/home/mosalam/robot_ws/install/urdf_tutorial:/home/mosalam/robot_ws/install/serial:/home/mosalam/robot_ws/install/rplidar_ros:/home/mosalam/robot_ws/install/diffdrive_arduino PYTHONPATH=/home/mosalam/robot_ws/build/serial_motor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mosalam/robot_ws/install/serial_motor_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/serial_motor_demo build --build-base /home/mosalam/robot_ws/build/serial_motor_demo/build install --record /home/mosalam/robot_ws/build/serial_motor_demo/install.log --single-version-externally-managed install_data

@@ -1,0 +1,41 @@
+[0.026s] Invoking command in '/home/mosalam/robot_ws/build/urdf_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mosalam/robot_ws/install/serial_motor_demo:/home/mosalam/robot_ws/install/custom_explorer:/opt/ros/humble /usr/bin/cmake --build /home/mosalam/robot_ws/build/urdf_tutorial -- -j4 -l4
+[0.453s] Invoked command in '/home/mosalam/robot_ws/build/urdf_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mosalam/robot_ws/install/serial_motor_demo:/home/mosalam/robot_ws/install/custom_explorer:/opt/ros/humble /usr/bin/cmake --build /home/mosalam/robot_ws/build/urdf_tutorial -- -j4 -l4
+[0.463s] Invoking command in '/home/mosalam/robot_ws/build/urdf_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mosalam/robot_ws/install/serial_motor_demo:/home/mosalam/robot_ws/install/custom_explorer:/opt/ros/humble /usr/bin/cmake --install /home/mosalam/robot_ws/build/urdf_tutorial
+[0.476s] -- Install configuration: ""
+[0.478s] -- Execute custom install script
+[0.479s] -- Up-to-date symlink: /home/mosalam/robot_ws/install/urdf_tutorial/share/urdf_tutorial/images/flexible.png
+[0.479s] -- Up-to-date symlink: /home/mosalam/robot_ws/install/urdf_tutorial/share/urdf_tutorial/images/materials.png
+[0.479s] -- Up-to-date symlink: /home/mosalam/robot_ws/install/urdf_tutorial/share/urdf_tutorial/images/multipleshapes.png
+[0.479s] -- Up-to-date symlink: /home/mosalam/robot_ws/install/urdf_tutorial/share/urdf_tutorial/images/myfirst.png
+[0.479s] -- Up-to-date symlink: /home/mosalam/robot_ws/install/urdf_tutorial/share/urdf_tutorial/images/origins.png
+[0.480s] -- Up-to-date symlink: /home/mosalam/robot_ws/install/urdf_tutorial/share/urdf_tutorial/images/visual.png
+[0.480s] -- Up-to-date symlink: /home/mosalam/robot_ws/install/urdf_tutorial/share/urdf_tutorial/launch/display.launch.py
+[0.481s] -- Up-to-date symlink: /home/mosalam/robot_ws/install/urdf_tutorial/share/urdf_tutorial/meshes/l_finger.dae
+[0.481s] -- Up-to-date symlink: /home/mosalam/robot_ws/install/urdf_tutorial/share/urdf_tutorial/meshes/l_finger_color.png
+[0.482s] -- Up-to-date symlink: /home/mosalam/robot_ws/install/urdf_tutorial/share/urdf_tutorial/meshes/l_finger_tip.dae
+[0.482s] -- Up-to-date symlink: /home/mosalam/robot_ws/install/urdf_tutorial/share/urdf_tutorial/meshes/l_finger_tip_color.png
+[0.483s] -- Up-to-date symlink: /home/mosalam/robot_ws/install/urdf_tutorial/share/urdf_tutorial/rviz/urdf.rviz
+[0.484s] -- Up-to-date symlink: /home/mosalam/robot_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/01-myfirst.urdf
+[0.484s] -- Up-to-date symlink: /home/mosalam/robot_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/02-multipleshapes.urdf
+[0.484s] -- Up-to-date symlink: /home/mosalam/robot_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/03-origins.urdf
+[0.486s] -- Up-to-date symlink: /home/mosalam/robot_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/04-materials.urdf
+[0.487s] -- Up-to-date symlink: /home/mosalam/robot_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/05-visual.urdf
+[0.487s] -- Up-to-date symlink: /home/mosalam/robot_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/06-flexible.urdf
+[0.487s] -- Up-to-date symlink: /home/mosalam/robot_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/07-physics.urdf
+[0.487s] -- Up-to-date symlink: /home/mosalam/robot_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/08-macroed.urdf.xacro
+[0.487s] -- Up-to-date symlink: /home/mosalam/robot_ws/install/urdf_tutorial/share/ament_index/resource_index/package_run_dependencies/urdf_tutorial
+[0.487s] -- Up-to-date symlink: /home/mosalam/robot_ws/install/urdf_tutorial/share/ament_index/resource_index/parent_prefix_path/urdf_tutorial
+[0.488s] -- Up-to-date symlink: /home/mosalam/robot_ws/install/urdf_tutorial/share/urdf_tutorial/environment/ament_prefix_path.sh
+[0.488s] -- Up-to-date symlink: /home/mosalam/robot_ws/install/urdf_tutorial/share/urdf_tutorial/environment/ament_prefix_path.dsv
+[0.489s] -- Up-to-date symlink: /home/mosalam/robot_ws/install/urdf_tutorial/share/urdf_tutorial/environment/path.sh
+[0.489s] -- Up-to-date symlink: /home/mosalam/robot_ws/install/urdf_tutorial/share/urdf_tutorial/environment/path.dsv
+[0.490s] -- Up-to-date symlink: /home/mosalam/robot_ws/install/urdf_tutorial/share/urdf_tutorial/local_setup.bash
+[0.491s] -- Up-to-date symlink: /home/mosalam/robot_ws/install/urdf_tutorial/share/urdf_tutorial/local_setup.sh
+[0.491s] -- Up-to-date symlink: /home/mosalam/robot_ws/install/urdf_tutorial/share/urdf_tutorial/local_setup.zsh
+[0.491s] -- Up-to-date symlink: /home/mosalam/robot_ws/install/urdf_tutorial/share/urdf_tutorial/local_setup.dsv
+[0.491s] -- Symlinking: /home/mosalam/robot_ws/install/urdf_tutorial/share/urdf_tutorial/package.dsv
+[0.511s] -- Up-to-date symlink: /home/mosalam/robot_ws/install/urdf_tutorial/share/ament_index/resource_index/packages/urdf_tutorial
+[0.512s] -- Up-to-date symlink: /home/mosalam/robot_ws/install/urdf_tutorial/share/urdf_tutorial/cmake/urdf_tutorialConfig.cmake
+[0.512s] -- Up-to-date symlink: /home/mosalam/robot_ws/install/urdf_tutorial/share/urdf_tutorial/cmake/urdf_tutorialConfig-version.cmake
+[0.513s] -- Up-to-date symlink: /home/mosalam/robot_ws/install/urdf_tutorial/share/urdf_tutorial/package.xml
+[0.518s] Invoked command in '/home/mosalam/robot_ws/build/urdf_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mosalam/robot_ws/install/serial_motor_demo:/home/mosalam/robot_ws/install/custom_explorer:/opt/ros/humble /usr/bin/cmake --install /home/mosalam/robot_ws/build/urdf_tutorial

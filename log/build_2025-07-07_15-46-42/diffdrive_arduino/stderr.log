@@ -1,0 +1,4 @@
+[01m[K/home/mosalam/robot_ws/src/diffdrive_arduino/hardware/diffbot_system.cpp:[m[K In lambda function:
+[01m[K/home/mosalam/robot_ws/src/diffdrive_arduino/hardware/diffbot_system.cpp:149:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  149 |     [this]([01;35m[Kconst std_msgs::msg::String::SharedPtr msg[m[K)
+      |            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K

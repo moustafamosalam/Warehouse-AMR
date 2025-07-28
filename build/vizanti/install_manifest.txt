@@ -1,0 +1,15 @@
+/home/mosalam/robot_ws/install/vizanti/share/ament_index/resource_index/package_run_dependencies/vizanti
+/home/mosalam/robot_ws/install/vizanti/share/ament_index/resource_index/parent_prefix_path/vizanti
+/home/mosalam/robot_ws/install/vizanti/share/vizanti/environment/ament_prefix_path.sh
+/home/mosalam/robot_ws/install/vizanti/share/vizanti/environment/ament_prefix_path.dsv
+/home/mosalam/robot_ws/install/vizanti/share/vizanti/environment/path.sh
+/home/mosalam/robot_ws/install/vizanti/share/vizanti/environment/path.dsv
+/home/mosalam/robot_ws/install/vizanti/share/vizanti/local_setup.bash
+/home/mosalam/robot_ws/install/vizanti/share/vizanti/local_setup.sh
+/home/mosalam/robot_ws/install/vizanti/share/vizanti/local_setup.zsh
+/home/mosalam/robot_ws/install/vizanti/share/vizanti/local_setup.dsv
+/home/mosalam/robot_ws/install/vizanti/share/vizanti/package.dsv
+/home/mosalam/robot_ws/install/vizanti/share/ament_index/resource_index/packages/vizanti
+/home/mosalam/robot_ws/install/vizanti/share/vizanti/cmake/vizantiConfig.cmake
+/home/mosalam/robot_ws/install/vizanti/share/vizanti/cmake/vizantiConfig-version.cmake
+/home/mosalam/robot_ws/install/vizanti/share/vizanti/package.xml

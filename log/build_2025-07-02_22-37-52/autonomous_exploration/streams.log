@@ -1,0 +1,21 @@
+[1.229s] Invoking command in '/home/mosalam/robot_ws/src/ROS2-FrontierBaseExplorationForAutonomousRobot/autonomous_exploration': PYTHONPATH=/home/mosalam/robot_ws/build/autonomous_exploration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mosalam/robot_ws/install/autonomous_exploration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/autonomous_exploration build --build-base /home/mosalam/robot_ws/build/autonomous_exploration/build install --record /home/mosalam/robot_ws/build/autonomous_exploration/install.log --single-version-externally-managed install_data
+[1.736s] running egg_info
+[1.736s] writing ../../../build/autonomous_exploration/autonomous_exploration.egg-info/PKG-INFO
+[1.736s] writing dependency_links to ../../../build/autonomous_exploration/autonomous_exploration.egg-info/dependency_links.txt
+[1.736s] writing entry points to ../../../build/autonomous_exploration/autonomous_exploration.egg-info/entry_points.txt
+[1.736s] writing requirements to ../../../build/autonomous_exploration/autonomous_exploration.egg-info/requires.txt
+[1.736s] writing top-level names to ../../../build/autonomous_exploration/autonomous_exploration.egg-info/top_level.txt
+[1.736s] reading manifest file '../../../build/autonomous_exploration/autonomous_exploration.egg-info/SOURCES.txt'
+[1.737s] writing manifest file '../../../build/autonomous_exploration/autonomous_exploration.egg-info/SOURCES.txt'
+[1.737s] running build
+[1.737s] running build_py
+[1.737s] running install
+[1.737s] running install_lib
+[1.737s] running install_data
+[1.737s] running install_egg_info
+[1.740s] removing '/home/mosalam/robot_ws/install/autonomous_exploration/lib/python3.10/site-packages/autonomous_exploration-0.0.0-py3.10.egg-info' (and everything under it)
+[1.740s] Copying ../../../build/autonomous_exploration/autonomous_exploration.egg-info to /home/mosalam/robot_ws/install/autonomous_exploration/lib/python3.10/site-packages/autonomous_exploration-0.0.0-py3.10.egg-info
+[1.741s] running install_scripts
+[1.780s] Installing control script to /home/mosalam/robot_ws/install/autonomous_exploration/lib/autonomous_exploration
+[1.780s] writing list of installed files to '/home/mosalam/robot_ws/build/autonomous_exploration/install.log'
+[1.862s] Invoked command in '/home/mosalam/robot_ws/src/ROS2-FrontierBaseExplorationForAutonomousRobot/autonomous_exploration' returned '0': PYTHONPATH=/home/mosalam/robot_ws/build/autonomous_exploration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mosalam/robot_ws/install/autonomous_exploration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/autonomous_exploration build --build-base /home/mosalam/robot_ws/build/autonomous_exploration/build install --record /home/mosalam/robot_ws/build/autonomous_exploration/install.log --single-version-externally-managed install_data

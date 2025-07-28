@@ -1,0 +1,9 @@
+/home/mosalam/robot_ws/build/vizanti_demos/CMakeFiles/uninstall.dir
+/home/mosalam/robot_ws/build/vizanti_demos/CMakeFiles/vizanti_demos_uninstall.dir
+/home/mosalam/robot_ws/build/vizanti_demos/CMakeFiles/test.dir
+/home/mosalam/robot_ws/build/vizanti_demos/CMakeFiles/edit_cache.dir
+/home/mosalam/robot_ws/build/vizanti_demos/CMakeFiles/rebuild_cache.dir
+/home/mosalam/robot_ws/build/vizanti_demos/CMakeFiles/list_install_components.dir
+/home/mosalam/robot_ws/build/vizanti_demos/CMakeFiles/install.dir
+/home/mosalam/robot_ws/build/vizanti_demos/CMakeFiles/install/local.dir
+/home/mosalam/robot_ws/build/vizanti_demos/CMakeFiles/install/strip.dir

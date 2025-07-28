@@ -1,0 +1,37 @@
+[1.251s] Invoking command in '/home/mosalam/robot_ws/src/Autonomous-Explorer-and-Mapper-ros2-nav2': PYTHONPATH=/home/mosalam/robot_ws/build/custom_explorer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mosalam/robot_ws/install/custom_explorer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/custom_explorer build --build-base /home/mosalam/robot_ws/build/custom_explorer/build install --record /home/mosalam/robot_ws/build/custom_explorer/install.log --single-version-externally-managed install_data
+[1.505s] running egg_info
+[1.505s] creating ../../build/custom_explorer/custom_explorer.egg-info
+[1.506s] writing ../../build/custom_explorer/custom_explorer.egg-info/PKG-INFO
+[1.506s] writing dependency_links to ../../build/custom_explorer/custom_explorer.egg-info/dependency_links.txt
+[1.506s] writing entry points to ../../build/custom_explorer/custom_explorer.egg-info/entry_points.txt
+[1.506s] writing requirements to ../../build/custom_explorer/custom_explorer.egg-info/requires.txt
+[1.506s] writing top-level names to ../../build/custom_explorer/custom_explorer.egg-info/top_level.txt
+[1.507s] writing manifest file '../../build/custom_explorer/custom_explorer.egg-info/SOURCES.txt'
+[1.509s] reading manifest file '../../build/custom_explorer/custom_explorer.egg-info/SOURCES.txt'
+[1.509s] writing manifest file '../../build/custom_explorer/custom_explorer.egg-info/SOURCES.txt'
+[1.510s] running build
+[1.510s] running build_py
+[1.510s] creating /home/mosalam/robot_ws/build/custom_explorer/build
+[1.510s] creating /home/mosalam/robot_ws/build/custom_explorer/build/lib
+[1.510s] creating /home/mosalam/robot_ws/build/custom_explorer/build/lib/custom_explorer
+[1.510s] copying custom_explorer/explorer.py -> /home/mosalam/robot_ws/build/custom_explorer/build/lib/custom_explorer
+[1.510s] copying custom_explorer/__init__.py -> /home/mosalam/robot_ws/build/custom_explorer/build/lib/custom_explorer
+[1.511s] running install
+[1.511s] running install_lib
+[1.512s] creating /home/mosalam/robot_ws/install/custom_explorer/lib/python3.10/site-packages/custom_explorer
+[1.512s] copying /home/mosalam/robot_ws/build/custom_explorer/build/lib/custom_explorer/explorer.py -> /home/mosalam/robot_ws/install/custom_explorer/lib/python3.10/site-packages/custom_explorer
+[1.512s] copying /home/mosalam/robot_ws/build/custom_explorer/build/lib/custom_explorer/__init__.py -> /home/mosalam/robot_ws/install/custom_explorer/lib/python3.10/site-packages/custom_explorer
+[1.513s] byte-compiling /home/mosalam/robot_ws/install/custom_explorer/lib/python3.10/site-packages/custom_explorer/explorer.py to explorer.cpython-310.pyc
+[1.514s] byte-compiling /home/mosalam/robot_ws/install/custom_explorer/lib/python3.10/site-packages/custom_explorer/__init__.py to __init__.cpython-310.pyc
+[1.514s] running install_data
+[1.514s] creating /home/mosalam/robot_ws/install/custom_explorer/share/ament_index
+[1.515s] creating /home/mosalam/robot_ws/install/custom_explorer/share/ament_index/resource_index
+[1.515s] creating /home/mosalam/robot_ws/install/custom_explorer/share/ament_index/resource_index/packages
+[1.515s] copying resource/custom_explorer -> /home/mosalam/robot_ws/install/custom_explorer/share/ament_index/resource_index/packages
+[1.515s] copying package.xml -> /home/mosalam/robot_ws/install/custom_explorer/share/custom_explorer
+[1.515s] running install_egg_info
+[1.517s] Copying ../../build/custom_explorer/custom_explorer.egg-info to /home/mosalam/robot_ws/install/custom_explorer/lib/python3.10/site-packages/custom_explorer-0.0.0-py3.10.egg-info
+[1.518s] running install_scripts
+[1.542s] Installing explorer script to /home/mosalam/robot_ws/install/custom_explorer/lib/custom_explorer
+[1.542s] writing list of installed files to '/home/mosalam/robot_ws/build/custom_explorer/install.log'
+[1.577s] Invoked command in '/home/mosalam/robot_ws/src/Autonomous-Explorer-and-Mapper-ros2-nav2' returned '0': PYTHONPATH=/home/mosalam/robot_ws/build/custom_explorer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mosalam/robot_ws/install/custom_explorer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/custom_explorer build --build-base /home/mosalam/robot_ws/build/custom_explorer/build install --record /home/mosalam/robot_ws/build/custom_explorer/install.log --single-version-externally-managed install_data

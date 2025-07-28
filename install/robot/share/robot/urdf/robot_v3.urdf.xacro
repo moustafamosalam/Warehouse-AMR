@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="Elevex">
+
+  <!-- BASE_FOOTPRINT LINK -->
+
+  <joint name="base_footprint_joint" type="fixed">
+      <parent link="base_link"/>
+      <child link="base_footprint"/>
+      <origin xyz="0.0488207268870813 0 -0.28" rpy="0 0 0"/>
+  </joint>
+
+  <link name="base_footprint">
+  </link>
+
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.00426609249383225 0.000877292079499631 0.0902034810968709"
+        rpy="0 0 0" />
+      <mass
+        value="28.9176072607185" />
+      <inertia
+        ixx="0.603223590621797"
+        ixy="6.68320790910261E-05"
+        ixz="0.0110170960141918"
+        iyy="1.12817185736788"
+        iyz="-3.72813828903675E-06"
+        izz="1.48515032958934" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find robot)/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.501960784313725 0.501960784313725 0.501960784313725 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find robot)/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="Right_wheel_drive">
+    <inertial>
+      <origin
+        xyz="0 0 -0.03"
+        rpy="0 0 0" />
+      <mass
+        value="0.793377808737566" />
+      <inertia
+        ixx="0.00107919216433527"
+        ixy="7.3436690885674E-21"
+        ixz="-1.09101522048314E-19"
+        iyy="0.00107919216433527"
+        iyz="-7.23962882018601E-20"
+        izz="0.00168235764342801" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find robot)/meshes/Right_wheel_drive.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.250980392156863 0.250980392156863 0.250980392156863 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find robot)/meshes/Right_wheel_drive.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Right_wheel_joint"
+    type="continuous">
+    <origin
+      xyz="-0.048718 -0.29 -0.215"
+      rpy="1.5708 0 3.14" />
+    <parent
+      link="base_link" />
+    <child
+      link="Right_wheel_drive" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="LEFT_wheel_drive">
+    <inertial>
+      <origin
+        xyz="2.77555756156289E-17 0 0.03"
+        rpy="0 0 0" />
+      <mass
+        value="0.793377808737566" />
+      <inertia
+        ixx="0.00107919216433527"
+        ixy="7.35016536443278E-21"
+        ixz="2.31128990003681E-19"
+        iyy="0.00107919216433527"
+        iyz="6.91140355312497E-20"
+        izz="0.00168235764342801" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find robot)/meshes/LEFT_wheel_drive.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.250980392156863 0.250980392156863 0.250980392156863 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find robot)/meshes/LEFT_wheel_drive.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="left_wheel_joint"
+    type="continuous">
+    <origin
+      xyz="-0.048718 0.29 -0.215"
+      rpy="1.5708 0 3.14" />
+    <parent
+      link="base_link" />
+    <child
+      link="LEFT_wheel_drive" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="LF_caster">
+    <inertial>
+      <origin
+        xyz="0 0 -0.01"
+        rpy="0 0 0" />
+      <mass
+        value="0.0995256552657248" />
+      <inertia
+        ixx="4.35258865695436E-05"
+        ixy="-1.29620925280002E-21"
+        ixz="1.77745332497369E-21"
+        iyy="4.35258865695436E-05"
+        iyz="1.82300460930321E-22"
+        izz="8.04167294547056E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find robot)/meshes/LF_caster.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.501960784313725 0.501960784313725 0.501960784313725 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find robot)/meshes/LF_caster.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="LF_caster_jont"
+    type="fixed">
+    <origin
+      xyz="-0.25242 -0.195 -0.24"
+      rpy="1.5708 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="LF_caster" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="RF_caster">
+    <inertial>
+      <origin
+        xyz="0 0 0.01"
+        rpy="0 0 0" />
+      <mass
+        value="0.0995256552657247" />
+      <inertia
+        ixx="4.35258865695436E-05"
+        ixy="-1.29629003215672E-21"
+        ixz="-9.66256689579499E-21"
+        iyy="4.35258865695436E-05"
+        iyz="1.62909581375183E-22"
+        izz="8.04167294547055E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find robot)/meshes/RF_caster.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.501960784313725 0.501960784313725 0.501960784313725 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find robot)/meshes/RF_caster.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="RF_caster_joint"
+    type="fixed">
+    <origin
+      xyz="-0.25242 0.195 -0.24"
+      rpy="1.5708 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="RF_caster" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="LR_Caster">
+    <inertial>
+      <origin
+        xyz="0 0 -0.00999999999999995"
+        rpy="0 0 0" />
+      <mass
+        value="0.0995256552657247" />
+      <inertia
+        ixx="4.35258865695436E-05"
+        ixy="1.29620925280002E-21"
+        ixz="6.12311305916317E-21"
+        iyy="4.35258865695436E-05"
+        iyz="-1.62909581375143E-22"
+        izz="8.04167294547056E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find robot)/meshes/LR_Caster.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.501960784313725 0.501960784313725 0.501960784313725 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find robot)/meshes/LR_Caster.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="LR_Caster_joint"
+    type="fixed">
+    <origin
+      xyz="0.25242 -0.195 -0.24"
+      rpy="1.5708 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="LR_Caster" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="RR_caster">
+    <inertial>
+      <origin
+        xyz="2.77555756156289E-17 0 0.01"
+        rpy="0 0 0" />
+      <mass
+        value="0.0995256552657247" />
+      <inertia
+        ixx="4.35258865695436E-05"
+        ixy="1.29629003215672E-21"
+        ixz="1.78627658484092E-21"
+        iyy="4.35258865695436E-05"
+        iyz="-4.1128303054583E-23"
+        izz="8.04167294547056E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find robot)/meshes/RR_caster.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.501960784313725 0.501960784313725 0.501960784313725 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find robot)/meshes/RR_caster.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="RR_caster_joint"
+    type="fixed">
+    <origin
+      xyz="0.25242 0.195 -0.24"
+      rpy="1.5708 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="RR_caster" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="laser_frame">
+    <inertial>
+      <origin
+        xyz="0.00676926455514876 -7.86097937086061E-05 -0.0224318722671598"
+        rpy="0 0 0" />
+      <mass
+        value="1.33076913637071" />
+      <inertia
+        ixx="0.000615074581322263"
+        ixy="-7.4014746598904E-06"
+        ixz="0.000158273208466072"
+        iyy="0.00096054069474905"
+        iyz="-7.00471688546758E-08"
+        izz="0.00109815200027136" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find robot)/meshes/Lidar.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find robot)/meshes/Lidar.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="laser_joint"
+    type="fixed">
+    <origin
+      xyz="0.321506079696644 -0.001950279665067 0.2187"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="laser_frame" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+
+  <xacro:include filename="ros2_control.xacro" />
+
+</robot>

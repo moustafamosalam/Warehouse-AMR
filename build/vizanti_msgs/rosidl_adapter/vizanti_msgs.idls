@@ -1,0 +1,9 @@
+/home/mosalam/robot_ws/build/vizanti_msgs/rosidl_adapter/vizanti_msgs:srv/GetNodeParameters.idl
+/home/mosalam/robot_ws/build/vizanti_msgs/rosidl_adapter/vizanti_msgs:srv/SetNodeParameter.idl
+/home/mosalam/robot_ws/build/vizanti_msgs/rosidl_adapter/vizanti_msgs:srv/SaveMap.idl
+/home/mosalam/robot_ws/build/vizanti_msgs/rosidl_adapter/vizanti_msgs:srv/LoadMap.idl
+/home/mosalam/robot_ws/build/vizanti_msgs/rosidl_adapter/vizanti_msgs:srv/RecordRosbag.idl
+/home/mosalam/robot_ws/build/vizanti_msgs/rosidl_adapter/vizanti_msgs:srv/ManageNode.idl
+/home/mosalam/robot_ws/build/vizanti_msgs/rosidl_adapter/vizanti_msgs:srv/ListPackages.idl
+/home/mosalam/robot_ws/build/vizanti_msgs/rosidl_adapter/vizanti_msgs:srv/ListExecutables.idl
+/home/mosalam/robot_ws/build/vizanti_msgs/rosidl_adapter/vizanti_msgs:srv/ListLifecycles.idl
