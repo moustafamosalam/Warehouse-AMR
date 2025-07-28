@@ -47,4 +47,11 @@ This project is a graduation-level autonomous mobile robot built for automating 
 - **MQTT Protocol**  
   Used to communicate with a central warehouse server to receive pickup/delivery tasks.
 
+## 📸 Media
+
+![Robot](project_media/Robot.jpg)  
+*Full Robot*
+
+![Map](project_media/map.png)  
+*Mapping*
 ---
